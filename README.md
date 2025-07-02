@@ -38,7 +38,7 @@ python manage.py createsuperuser
 Ejecutar el servidor Django: 
 python manage.py runserver
 ```
-*✔️ Backend disponible en: http://localhost:8000/admin/*
+*✔️ Backend available at: http://localhost:8000/admin/*
 
 ### 3. Configure the Frontend (React)
 **From the project root:** <br />
@@ -51,4 +51,4 @@ npm install
 ```bash
 npm run dev
 ```
-*✔️ Frontend disponible en: http://localhost:5173/*
+*✔️ Frontend available at: http://localhost:5173/*
