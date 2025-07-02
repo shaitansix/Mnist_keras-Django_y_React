@@ -11,28 +11,28 @@ git clone https://github.com/shaitansix/Mnist_keras-Django_y_React.git
 cd Mnist_keras-Django_y_React
 ```
 
-### 2. Configurar el Backend (Django)
-**Desde la raíz del proyecto:** <br />
-**Crear y activar entorno virtual:**
+### 2. Configure the backend (Django)
+**From the project root:** <br />
+**Create and activate virtual environment:**
 ```bash
 cd server
 pip install virtualenv
 virtualenv -p python3.9 venv
 .\venv\Scripts\activate  # Windows
 ```
-**Instalar dependencias:**
+**Install dependencies:**
 ```bash
 pip install -r requirements.txt
 Migrar la base de datos:
 python manage.py makemigrations
 python manage.py migrate
 ```
-**Configurar variables de entorno:** <br />
-**Crear un archivo .env en /server y agregar:**
+**Configure environment variables:** <br />
+**Create a file . env in /server and add:**
 ```bash
 SECRET_KEY=hhha2%kgyg_!f7(^h4@l^%wwc@7z^%^^ql7rt&d_aea)n3+3-j
 ```
-**Crear superusuario:**
+**Create super user:**
 ```bash
 python manage.py createsuperuser
 Ejecutar el servidor Django: 
@@ -40,14 +40,14 @@ python manage.py runserver
 ```
 *✔️ Backend disponible en: http://localhost:8000/admin/*
 
-### 3. Configurar el Frontend (React)
-**Desde la raíz del proyecto:** <br />
-**Instalar dependencias:**
+### 3. Configure the Frontend (React)
+**From the project root:** <br />
+**Install dependencies:**
 ```bash
 cd client
 npm install
 ```
-**Ejecutar el servidor de desarrollo:**
+**Run the development server:**
 ```bash
 npm run dev
 ```
