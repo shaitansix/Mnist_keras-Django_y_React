@@ -1,0 +1,30 @@
+.output_panel-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.output_panel-container>:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.output_panel-metrics {
+  display: flex;
+}
+
+.output_panel-metrics-left {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.output_panel-metrics-left>:last-child {
+  color: var(--color-gray);
+}
+
+.output_panel-metrics-right {
+  width: 180px;
+}

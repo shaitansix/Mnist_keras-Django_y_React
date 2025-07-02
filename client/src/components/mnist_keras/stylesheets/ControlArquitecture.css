@@ -1,0 +1,23 @@
+.control_arquitecture-layer {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.control_arquitecture-layer-btns, 
+.control_arquitecture-neuron-btns {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.control_arquitecture-neuron {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.control_arquitecture-icon {
+  width: 16px;
+  height: 16px;
+}

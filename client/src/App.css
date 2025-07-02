@@ -1,0 +1,151 @@
+.container {
+  margin: 0 auto;
+  max-width: var(--max-width-lg);
+}
+
+.container-md {
+  margin: 0 auto;
+  max-width: var(--max-width-md);
+}
+
+.custom-link {
+  color: var(--color-gray);
+}
+
+.custom-link-active {
+  color: var(--color-red);
+}
+
+.custom-button {
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.custom-circle_button-sm, 
+.custom-circle_button-lg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+  outline: none;
+  border: none;
+  border-radius: 50%;
+}
+
+.custom-circle_button-sm {
+  width: 24px;
+  height: 24px;
+}
+
+.custom-circle_button-lg {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-primary {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-black-light);
+}
+
+.btn-secondary {
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-red-light);
+}
+
+.btn-primary:disabled, 
+.btn-secondary:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.btn-primary:disabled:hover {
+  background-color: var(--color-black);
+}
+
+.btn-secondary:disabled:hover {
+  background-color: var(--color-red);
+}
+
+.custom-input {
+  padding: 0.4rem 0;
+
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--color-gray-light);
+  background-color: transparent;
+}
+
+.custom-select {
+  padding: 0.4rem;
+
+  outline: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: solid 1px var(--color-gray-light);
+  background-color: transparent;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background-image: url('data:image/svg+xml;utf8,<svg fill="hsl(0, 8%, 50%)" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0px center;
+}
+
+.custom-input:focus, 
+.custom-select:focus {
+  border-bottom: 1px solid var(--color-black);
+}
+
+.custom-input:disabled, 
+.custom-select:disabled {
+  opacity: 0.8;
+}
+
+.warning {
+  display: inline-block;
+  padding: 0.1rem 0.2rem;
+
+  border-radius: 0.4rem;
+  border: 1px solid var(--color-red);
+  background-color: var(--color-red-op);
+}
+
+.text-header {
+  font-size: 3.2rem;
+  font-weight: 100;
+}
+
+.text-title {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.text-small {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.text-xsmall {
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+
+.text-warn {
+  color: var(--color-red);
+}
+
+.text-color-secondary {
+  color: var(--color-gray);
+}

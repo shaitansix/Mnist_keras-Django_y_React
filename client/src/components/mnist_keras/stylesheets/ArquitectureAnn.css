@@ -1,0 +1,96 @@
+.arquitecture_ann-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.arquitecture_ann-body {
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+}
+
+.arquitecture_ann-panel>:first-child, 
+.arquitecture_ann-panel>:last-child {
+  width: 140px;
+}
+
+.arquitecture_ann-panel>:nth-child(2) {
+  align-items: center;
+  width: 400px;
+}
+
+.arquitecture_ann-panel-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.arquitecture_ann-panel-neurons {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.custom_node-input {
+  padding: 1rem 0;
+  width: 48px;
+  height: 200px;
+
+  border-radius: 0.4rem;
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
+
+.custom_node-input>:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  height: 100%;
+}
+
+.point {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+
+.custom_node-hidden {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  border: 1px solid var(--color-red);
+  background-color: var(--color-white);
+  color: var(--color-white);
+  font-size: 0.8rem;
+}
+
+.custom_node-output {
+  padding: 1rem;
+  height: 200px;
+
+  border-radius: 0.4rem;
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
+
+.custom_node-output>:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  height: 100%;
+}
+
+.custom_node-handle {
+  border: 1px solid var(--color-red);
+  background-color: var(--color-white);
+}

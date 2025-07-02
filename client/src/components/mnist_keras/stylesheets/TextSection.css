@@ -1,0 +1,16 @@
+.text_section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2.8rem;
+}
+
+.text_section-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.text_section-body > * {
+  line-height: 1.6rem;
+}

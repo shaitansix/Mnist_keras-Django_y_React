@@ -1,0 +1,40 @@
+:root {
+  --max-width-lg: 1100px;
+  --max-width-md: 740px;
+
+  --color-black: hsl(0, 8%, 10%);
+  --color-black-light: hsl(0, 8%, 20%);
+  --color-gray: hsl(0, 8%, 50%);
+  --color-gray-light: hsl(0, 8%, 74%);
+  --color-white: hsl(0, 8%, 98%);
+  --color-red: hsl(0, 60%, 50%);
+  --color-red-light: hsl(0, 60%, 56%);
+
+  --color-red-op: hsla(0, 60%, 50%, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--color-white);
+  color: var(--color-black);
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 8px 16px;
+  width: 120px;
+
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
