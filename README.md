@@ -35,7 +35,9 @@ SECRET_KEY=hhha2%kgyg_!f7(^h4@l^%wwc@7z^%^^ql7rt&d_aea)n3+3-j
 **Create super user:**
 ```bash
 python manage.py createsuperuser
-Ejecutar el servidor Django: 
+```
+**Run the Django server:**
+```bash
 python manage.py runserver
 ```
 *✔️ Backend available at: http://localhost:8000/admin/*
